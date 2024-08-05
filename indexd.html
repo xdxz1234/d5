@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="Ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第五人格</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: rgba(184, 184, 184, 0.356)
+        }
+        /* * {
+            border: 1px solid rgb(138, 122, 122);
+        } */
+        .flex{
+            display: flex;
+        }
+        .bs{
+            background-color: white;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .row{
+            flex-direction: row;
+        }
+        .mgt8{
+            margin: 8px;/*外上下左右*/
+        }
+        .mgn8{
+            padding: px;/*内上下左右*/
+        }
+        .mgr8{
+            margin-left: 8px;/*左*/
+        }
+        .mgs8{
+            margin-top:8px;/*上*/
+        }
+        .mgx8{
+            margin-bottom: 8px;/*下*/
+        }
+        .dh{/*导航*/
+            padding: 10px 20px;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            font-size: 14px;
+            color: #666;
+        }
+        .yy{/*阴影*/
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+             rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 /12%) 0px 1px 3px 0px;
+        }
+        .spjz{/*水平居中*/
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100px; /* 或者其他高度 */
+        }
+
+
+    
+
+    </style>
+</head>
+<body class="flex">
+    <div class="flex flex1 column">
+        <div style="flex: 1; align-items: center;justify-content: center; z-index: 1;" class="mgx8 mgs8 flex">
+        <div style="flex: 1; background-color: rgb(182, 165, 165); height: 10vh; z-index: 1; border-radius: 15px;" class="spjz yy spjz">
+        <img src="11.png" alt="" width="55" height="55">
+        </div>
+
+        <div style=" z-index: 1; flex: 3; background-color: rgb(255, 255, 255); height: 8vh; border-radius: 15px" class="mgr8 yy spjz">第五人格非人类研究所</div>
+        </div>  <!--标题-->
+
+        <div class="flex1 row yy" style="flex: 50;">
+            <div class="flex1 flex yy">
+                <div style="flex: 1;">
+                    <div class="column yy" style="z-index: 1; background-color: rgb(255, 255, 255); height: 86vh; border-radius: 8px">
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                        <div class="dh">导航</div>
+                    </div>
+
+                </div>
+                <div style="height: 86vh; overflow: auto ;flex: 3; background-color: rgba(255, 255, 255, 0.418); border-radius: 8px" class="column mgr8 yy">
+                    <div style="flex:1; height: 5svh; background-color: #6b434369;" class="bs mgt8 yy mgn8 spjz">
+                    每日非人类展览
+                    </div>
+
+                    <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                    <img src="2.jpg" alt="" width="120" height="">
+                     </div>
+
+                    <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                    <img src="2.jpg" alt="" width="120" height="">
+                    </div>
+
+                    <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                    <img src="3.jpg" alt="" width="120" height="">
+                    </div>
+
+                    <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                    <img src="4.jpg" alt="" width="120" height="">
+                     </div>
+
+                     <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                     <img src="1.jpg" alt="" width="120" height="">
+                     </div>
+    
+                     <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                     <img src="1.jpg" alt="" width="120" height="">
+                     </div>
+    
+                     <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                     <img src="1.jpg" alt="" width="120" height="">
+                     </div>
+       
+                     <div style="flex: 1;" class="bs mgt8 yy mgn8 spjz">
+                     <img src="1.jpg" alt="" width="120" height="">
+                     </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+
+</html>
